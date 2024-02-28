@@ -32,11 +32,10 @@
 }
 
 body {
-  margin: 0;
   font-family: 'Plus Jajarta Sans', sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
