@@ -25,6 +25,7 @@ const SectionWrapper = styled.div`
   max-width: 800px;
   z-index: 2;
   margin: 0 auto;
+  text-align: center;
 `;
 
 const Title = styled.h1`
