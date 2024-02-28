@@ -12,6 +12,14 @@ import {
 export default function Hero () {
   const buttonHandler = () => { };
 
+  const handleScroll = () => {
+    // scroll to #about section
+    window.scrollTo({
+      top: document.getElementById("about").offsetTop,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <HeroSection>
       <SectionWrapper>
@@ -22,7 +30,7 @@ export default function Hero () {
         </ButtonWrapper>
         <ScrollWrapper>
           <p>SCROLL</p>
-          <Icon name="down-arrow" />
+          <Icon name="down-arrow" onClick={handleScroll} />
         </ScrollWrapper>
       </SectionWrapper>
     </HeroSection>
