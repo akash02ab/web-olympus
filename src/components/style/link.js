@@ -9,6 +9,7 @@ const LinkStyle = styled.a`
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.2ch;
+  width: fit-content;
   padding: 8px 30px;
   color: var(--text-primary);
   border: 1px solid var(--text-primary);
