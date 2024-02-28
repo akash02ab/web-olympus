@@ -6,6 +6,7 @@ const PartnersSection = styled.section`
   margin: 0 auto;
   margin-top: 200px; 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
