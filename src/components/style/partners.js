@@ -4,7 +4,7 @@ const PartnersSection = styled.section`
   max-width: 960px;
   height: 60px;
   margin: 0 auto;
-  padding: 200px 0; 
+  margin-top: 200px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
