@@ -16,7 +16,7 @@ const HeroSection = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.59), rgba(24, 24, 24, 0.38), rgba(24, 24, 24, 0));
+    background-image: linear-gradient(to top, rgba(24, 24, 24, 1), rgba(24, 24, 24, 0.59), rgba(24, 24, 24, 0.38), rgba(24, 24, 24, 0));
     z-index: -1;
   }
 `;
