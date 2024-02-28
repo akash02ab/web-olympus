@@ -84,8 +84,8 @@ export default function Testimonials () {
       <UsersWrapper>
         {
           users.map((user, index) => (
-            <div className="row">
-              <div key={index} className="user">
+            <div className="row" key={index}>
+              <div className="user">
                 <img src={user.image} alt="avatar" className="avatar" />
                 <div className="user-info">
                   <h3>{user.name}</h3>

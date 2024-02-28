@@ -25,8 +25,9 @@ export default function PortfolioItem () {
   return (
     <PortfolioItemWrapper>
       {
-        portfolioItems.map((portfolioItem) => (
+        portfolioItems.map((portfolioItem, index) => (
           <a
+            key={index}
             href={portfolioItem.link}
             target="_blank"
             rel="noreferrer"
