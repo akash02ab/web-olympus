@@ -1,12 +1,19 @@
 import Link from "./Link";
-import { AboutLeft, AboutOverlap, AboutRight, AboutSection, Description, StatsWrapper } from "./style/about";
+import {
+  AboutLeft,
+  AboutOverlap,
+  AboutRight,
+  AboutSection,
+  Description,
+  StatsWrapper
+} from "./style/about";
 import SectionName from "./style/sectionName";
 import SectionTitle from "./style/sectionTitle";
 import aboutBackground from "../assets/images/about-background.svg";
 
 export default function About () {
   return (
-    <AboutSection>
+    <AboutSection id="about">
       <AboutLeft>
         <SectionName>ABOUT US</SectionName>
         <SectionTitle>We Create Digital World Class Business Agency Marketplace</SectionTitle>
