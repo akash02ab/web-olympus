@@ -4,6 +4,9 @@ const InputFieldWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 100%;
+  min-width: 360px;
+  max-width: 550px;
 
   label {
     font-size: 18px;
@@ -14,8 +17,6 @@ const InputFieldWrapper = styled.div`
   }
 
   input {
-    min-width: 360px;
-    max-width: 630px;
     width: 100%;
     height: 54px;
     padding: 0 16px;
