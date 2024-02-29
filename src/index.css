@@ -24,12 +24,14 @@
 
 :root {
   --brand-primary: #9C7339;
+  --brand-gradient: #B5964D29;
   --background-primary: #181818;
   --background-secondary: #333333;
   --text-primary: #FFFFFF;
   --text-secondary: #AAAAAA;
   --sub-text-primary: #888888;
   --light-gray: #464646;
+  --footer-background: #111111;
 }
 
 body {
