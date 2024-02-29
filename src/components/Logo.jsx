@@ -1,12 +1,12 @@
 import LogoStyle from "./style/logo";
 
-export default function Logo () {
+export default function Logo ({ size = 25 }) {
   return (
-    <LogoStyle>
+    <LogoStyle size={size}>
       <span>Web</span>
       <svg
-        width="21"
-        height="20"
+        width={size - 2}
+        height={size - 3}
         viewBox="0 0 21 20"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
