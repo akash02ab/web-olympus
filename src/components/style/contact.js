@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ContactSection = styled.section`
-  max-width: 680px;
+  max-width: 681px;
   text-align: center;
   margin: 0 auto;
   margin-top: 200px;
