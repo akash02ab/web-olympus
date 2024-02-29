@@ -40,6 +40,15 @@ const FooterWrapper = styled.footer`
     display: flex;
     align-items: center;
     gap: 26px;
+
+    a {
+      color: var(--text-primary);
+      transition: all 150ms ease;
+      &:hover {
+        color: var(--brand-primary);
+        transition: all 150ms ease;
+      }
+    }
   }
 
   .quick-links {
@@ -47,7 +56,7 @@ const FooterWrapper = styled.footer`
   }
 
   .company {
-    grid-area: 1 / 7 / 4 / 8;
+    grid-area: 1 / 6 / 4 / 9;
   }
 
   .legal {
@@ -76,11 +85,15 @@ const FooterWrapper = styled.footer`
       font-size: 15px;
       font-weight: 500;
       line-height: 33.75px;
-      
       list-style: none;
       a {
+        transition: all 150ms ease;
         color: var(--text-secondary);
         text-decoration: none;
+        &:hover {
+          color: var(--text-primary);
+          transition: all 150ms ease;
+        }
       }
     }
   }
