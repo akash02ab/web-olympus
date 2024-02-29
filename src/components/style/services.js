@@ -26,6 +26,7 @@ const ServiceWrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     counter-increment: item 1;
+    text-decoration: none;
 
     span {
       font-family: "Gamora";
@@ -60,6 +61,12 @@ const ServiceWrapper = styled.div`
         transition: transform 200ms ease-in;
         color: var(--brand-primary);
       }
+    }
+
+    &:hover svg {
+      transform: rotate(-40deg);
+      transition: transform 200ms ease-in;
+      color: var(--brand-primary);
     }
   }
 

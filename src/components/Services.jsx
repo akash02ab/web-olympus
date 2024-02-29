@@ -9,25 +9,25 @@ export default function Services () {
       <SectionName>WHAT WE DO</SectionName>
       <SectionTitle>Our Core Services</SectionTitle>
       <ServiceWrapper>
-        <div className="row">
+        <a href="/" className="row">
           <span>Web Design</span>
           <Icon name="arrow" />
-        </div>
+        </a>
         <hr className="horizontal-line" />
-        <div className="row">
+        <a href="/" className="row">
           <span>Website Redesign</span>
           <Icon name="arrow" />
-        </div>
+        </a>
         <hr className="horizontal-line" />
-        <div className="row">
+        <a href="/" className="row">
           <span>Development</span>
           <Icon name="arrow" />
-        </div>
+        </a>
         <hr className="horizontal-line" />
-        <div className="row">
+        <a href="/" className="row">
           <span>SEO</span>
           <Icon name="arrow" />
-        </div>
+        </a>
         <hr className="horizontal-line" />
       </ServiceWrapper>
     </ServiceSection>
