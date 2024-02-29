@@ -29,6 +29,7 @@ export default function Services () {
             <span>SEO</span>
             <Icon name="arrow" />
           </a>
+          <Icon name="semi-circle-revert" className="service-decoration" />
           <hr className="horizontal-line" />
         </div>
       </ServiceWrapper>

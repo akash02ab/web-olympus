@@ -25,6 +25,13 @@ const ServiceWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 32px;
+    position: relative;
+  }
+
+  .service-decoration {
+    position: absolute;
+    bottom: 25px;
+    right: 69px;
   }
 
   .row {
