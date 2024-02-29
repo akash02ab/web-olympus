@@ -13,24 +13,27 @@ import user2 from "../assets/images/user2.svg";
 
 export default function Testimonials () {
   const [currentItem, setCurrentItem] = useState(0);
-  const users = [
+  const testimonials = [
     {
       name: "Chester Fell",
       role: "CUSTOMER",
       image: user1,
+      testimonial: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete."
     },
     {
       name: "Malina Williams",
       role: "CUSTOMER",
       image: user2,
+      testimonial: "I cannot recommend Web Olympus enough! From start to finish, they exceeded our expectations with their professionalism, creativity, and technical expertise. "
+    },
+    {
+      name: "Arthur Ferreira",
+      role: "CUSTOMER",
+      image: require("../assets/images/user3.jpg"),
+      testimonial: "Working with Web Olympus was an absolute pleasure! Their team of designers and developers took our vague ideas and turned them into a stunning website that perfectly represents our brand."
     }
   ];
-  const testimonials = [
-    "1.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.",
-    "2.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.",
-    "3.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.",
-    "4.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete."
-  ];
+
   const ITEMS_TO_SHOW = 2;
   const TOTAL_ITEMS = testimonials.length;
   const LAST_TEIM = TOTAL_ITEMS - ITEMS_TO_SHOW;
@@ -65,38 +68,34 @@ export default function Testimonials () {
         </NavigationWrapper>
       </div>
       <TestimonialItems>
-        <Icon
-          name="semi-circle-revert"
-          className="semi-circle-revert"
-        />
         {
-          testimonalsToShow.map((testimonial, index) => (
+          testimonalsToShow.map((user, index) => (
             <div key={index} className="testimonial">
-              <p>"{testimonial}"</p>
+              <p>
+                "{user.testimonial}"
+                {(index === 0) && <Icon
+                  name="semi-circle-revert"
+                  className="semi-circle-revert"
+                />}
+              </p>
               <Icon
                 name="testimonial-decoration"
                 className="testimonial-decoration"
               />
+              <UsersWrapper>
+                <div className="user">
+                  <img src={user.image} alt="avatar" className="avatar" />
+                  <div className="user-info">
+                    <h3>{user.name}</h3>
+                    <span>{user.role}</span>
+                  </div>
+                </div>
+                <Icon name="quote" />
+              </UsersWrapper>
             </div>
           ))
         }
       </TestimonialItems>
-      <UsersWrapper>
-        {
-          users.map((user, index) => (
-            <div className="row" key={index}>
-              <div className="user">
-                <img src={user.image} alt="avatar" className="avatar" />
-                <div className="user-info">
-                  <h3>{user.name}</h3>
-                  <span>{user.role}</span>
-                </div>
-              </div>
-              <Icon name="quote" />
-            </div>
-          ))
-        }
-      </UsersWrapper>
     </TestimonialsSection>
   );
 }

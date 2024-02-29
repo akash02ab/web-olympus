@@ -53,32 +53,16 @@ const TestimonialItems = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   position: relative;
-
-  .semi-circle-revert {
-    position: absolute;
-    left: -45px;
-    bottom: 10px;
-  }
-
+  
   .testimonial {
     flex: 1;
     width: fit-content;
     max-width: 528px;
     margin: 70px 28px 0 28px;
-    position: relative;
     
-    &:before {
-      content: '';
-      height: 90px;
-      width: 4px;
-      background-color: var(--brand-primary);
-      position: absolute;
-      left: -28px;
-    }
-
     p {
       font-size: 20px;
       font-weight: 400;
@@ -87,11 +71,29 @@ const TestimonialItems = styled.div`
       letter-spacing: 0.05ch;
       color: var(--text-primary);
       margin-bottom: 28px;
+      position: relative;
+      
+      &:before {
+        content: '';
+        height: 96%;
+        width: 4px;
+        background-color: var(--brand-primary);
+        position: absolute;
+        left: -28px;
+        top: 4px;
+      }
+
+      .semi-circle-revert {
+        position: absolute;
+        left: -72px;
+        bottom: -55px;
+      }
     }
 
     .testimonial-decoration {
       transform: translateX(-30px);
     }
+
   }
 `;
 
@@ -99,58 +101,44 @@ const UsersWrapper = styled.div`
   width: 100%;
   margin-top: 62px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 72px;
+  gap: 172px;
 
-  .row {
-    flex: 1;
-    width: 100%;
-    min-width: 360px;
-    max-width: 528px;
+  .user {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 72px;
+    gap: 24px;
     
-    .user {
+    .avatar {
+      width: 64px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+    }
+    
+    .user-info {
       display: flex;
-      align-items: center;
-      gap: 24px;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2px;
       
-      .avatar {
-        width: 64px;
-        aspect-ratio: 1;
-        border-radius: 50%;
+      h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.05ch;
+        color: var(--text-primary);
       }
-      
-      .user-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 2px;
-        
-        h3 {
-          font-size: 20px;
-          font-weight: 700;
-          line-height: 31px;
-          letter-spacing: 0.05ch;
-          color: var(--text-primary);
-        }
 
-        span {
-          font-size: 14px;
-          font-weight: 500;
-          line-height: 22.4px;
-          letter-spacing: 0.04ch;
-          text-transform: uppercase;
-          color: var(--brand-primary);
-        }
+      span {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22.4px;
+        letter-spacing: 0.04ch;
+        text-transform: uppercase;
+        color: var(--brand-primary);
       }
     }
   }
-
 `;
 
 export {
