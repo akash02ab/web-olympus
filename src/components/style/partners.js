@@ -10,6 +10,13 @@ const PartnersSection = styled.section`
   align-items: center;
   justify-content: space-between;
   gap: 60px;
+  position: relative;
+
+  svg {
+    position: absolute;
+    right: -116px;
+    bottom: -88px;
+  }
 `;
 
 export default PartnersSection;

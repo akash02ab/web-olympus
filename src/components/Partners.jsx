@@ -5,6 +5,7 @@ import Nike from "../assets/images/nike.svg";
 import CocaCola from "../assets/images/cocacola.svg";
 import Puma from "../assets/images/puma.svg";
 import PartnersSection from "./style/partners";
+import Icon from "./Icon";
 
 export default function Partners () {
   const partners = [
@@ -54,6 +55,7 @@ export default function Partners () {
           </a>
         ))
       }
+      <Icon name="pebbles" />
     </PartnersSection>
   )
 }
