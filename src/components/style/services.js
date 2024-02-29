@@ -7,18 +7,25 @@ const ServiceSection = styled.section`
   align-items: center;
   gap: 6px;
   margin-top: 200px;
-  `;
+`;
 
 const ServiceWrapper = styled.div`
+  width: 100%;
+  max-width: 1600px;
+  margin-top: 60px;
   background-image: url(${backgroundImage});
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-  margin-top: 60px;
+  background-size: cover;
+
+  .col {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
 
   .row {
     width: 100%;

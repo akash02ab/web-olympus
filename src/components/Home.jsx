@@ -24,9 +24,11 @@ export default function Home () {
       <SectionWrapper>
         <Partners />
         <About />
-        <Services />
-        <Portfolio />
       </SectionWrapper>
+      <Services />
+      <SectionWrapper>
+        <Portfolio />
+      </SectionWrapper>    
       <PortfolioItem />
       <SectionWrapper>
         <Testimonials />
