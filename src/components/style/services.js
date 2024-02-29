@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import backgroundImage from "../../assets/images/service-background.svg";
 
 const ServiceSection = styled.section`
   display: flex;
@@ -6,9 +7,12 @@ const ServiceSection = styled.section`
   align-items: center;
   gap: 6px;
   margin-top: 200px;
-`;
+  `;
 
 const ServiceWrapper = styled.div`
+  background-image: url(${backgroundImage});
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 100%;
   display: flex;
   flex-direction: column;
