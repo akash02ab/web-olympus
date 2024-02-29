@@ -5,7 +5,7 @@ const UpdateSection = styled.section`
 
   .row-space-between {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 96px;
 
