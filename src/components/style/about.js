@@ -5,7 +5,6 @@ const AboutSection = styled.section`
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 6px;
-  align-items: center;
   margin-top: 200px;
 `;
 
@@ -15,7 +14,7 @@ const AboutLeft = styled.div`
 `;
 
 const AboutRight = styled.div`
-  grid-area: 1 / 9 / -1 / -1;
+  grid-area: 2 / 9 / -1 / -1;
 `;
 
 const AboutOverlap = styled.div`
