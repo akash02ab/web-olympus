@@ -9,7 +9,7 @@ const AboutSection = styled.section`
 `;
 
 const AboutLeft = styled.div`
-  max-width: 658px;
+  max-width: 762px;
   grid-area: 1 / 1 / -1 / 9;
 `;
 
