@@ -7,12 +7,17 @@ const PortfolioItemWrapper = styled.article`
   display: flex;
   align-items: center;
   gap: 50px;
-  overflow-x: scroll;
+  overflow: scroll hidden;
 
-  img {
+  a {
     width: 430px;
     height: 564px;
-    object-fit: cover;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   @media screen and (min-width: 1600px) {
