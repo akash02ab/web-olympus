@@ -1,15 +1,15 @@
 import { Fragment } from "react";
 import styled from "styled-components";
-import About from './About';
-import Contact from './Contact';
-import Hero from './Hero';
-import Newsletter from './Newsletter';
-import Partners from './Partners';
-import Portfolio from './Portfolio';
-import PortfolioItem from './PortfolioItem';
-import Services from './Services';
-import Testimonials from './Testimonials';
-import Updates from './Updates';
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Hero from '../components/Hero';
+import Newsletter from '../components/Newsletter';
+import Partners from '../components/Partners';
+import Portfolio from '../components/Portfolio';
+import PortfolioItem from '../components/PortfolioItem';
+import Services from '../components/Services';
+import Testimonials from '../components/Testimonials';
+import Updates from '../components/Updates';
 
 const SectionWrapper = styled.div`
   max-width: 1440px;
@@ -28,7 +28,7 @@ export default function Home () {
       <Services />
       <SectionWrapper>
         <Portfolio />
-      </SectionWrapper>    
+      </SectionWrapper>
       <PortfolioItem />
       <SectionWrapper>
         <Testimonials />

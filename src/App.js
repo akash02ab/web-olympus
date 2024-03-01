@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import Nav from './components/Nav';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Footer from './components/Footer';
 
 const AppWrapper = styled.div`
