@@ -1,11 +1,11 @@
-import DriveLab from "../assets/images/drivelab.svg";
-import Quechua from "../assets/images/quechua.svg";
-import Unknown from "../assets/images/unknown.svg";
-import Nike from "../assets/images/nike.svg";
-import CocaCola from "../assets/images/cocacola.svg";
-import Puma from "../assets/images/puma.svg";
+import DriveLab from "assets/images/drivelab.svg";
+import Quechua from "assets/images/quechua.svg";
+import Unknown from "assets/images/unknown.svg";
+import Nike from "assets/images/nike.svg";
+import CocaCola from "assets/images/cocacola.svg";
+import Puma from "assets/images/puma.svg";
 import PartnersSection from "./style/partners";
-import Icon from "./Icon";
+import Icon from "components/Icon";
 
 export default function Partners () {
   const partners = [

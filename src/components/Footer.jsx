@@ -1,5 +1,5 @@
-import Icon from "./Icon";
-import Logo from "./Logo";
+import Icon from "components/Icon";
+import Logo from "components/Logo";
 import FooterWrapper from "./style/footer";
 
 export default function Footer () {

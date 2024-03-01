@@ -1,5 +1,5 @@
 import ButtonStyle from "./style/button";
-import buttonDecoration from "../assets/images/button-decoration.svg";
+import buttonDecoration from "assets/images/button-decoration.svg";
 
 export default function Button ({ children, onClick }) {
   return (

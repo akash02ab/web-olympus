@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import Icon from "./Icon";
-import Link from "./Link";
+import Icon from "components/Icon";
+import Link from "components/Link";
 import SectionName from "./style/sectionName";
 import SectionTitle from "./style/sectionTitle";
 import UpdateSection from "./style/updates";

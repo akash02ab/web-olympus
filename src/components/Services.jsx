@@ -1,4 +1,4 @@
-import Icon from "./Icon";
+import Icon from "components/Icon";
 import SectionName from "./style/sectionName";
 import SectionTitle from "./style/sectionTitle";
 import { ServiceSection, ServiceWrapper } from "./style/services";

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Button from "./Button";
+import Button from "components/Button";
+import InputField from "components/InputField";
 import NewsletterSection from "./style/newsletter";
-import SVGObjet from "../assets/images/newsletter-object.svg";
-import InputField from "./InputField";
+import SVGObjet from "assets/images/newsletter-object.svg";
 
 export default function Newsletter () {
   const [email, setEmail] = useState("");

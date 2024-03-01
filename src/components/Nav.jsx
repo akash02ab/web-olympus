@@ -1,5 +1,5 @@
-import Link from "./Link";
-import Logo from "./Logo";
+import Link from "components/Link";
+import Logo from "components/Logo";
 import { NavItem, NavLinks, NavStyle } from "./style/nav";
 
 export default function Nav () {

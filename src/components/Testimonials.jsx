@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Icon from "./Icon";
+import Icon from "components/Icon";
 import SectionName from "./style/sectionName";
 import SectionTitle from "./style/sectionTitle";
 import {
@@ -8,8 +8,8 @@ import {
   TestimonialsSection,
   UsersWrapper
 } from "./style/testimonials";
-import user1 from "../assets/images/user1.svg";
-import user2 from "../assets/images/user2.svg";
+import user1 from "assets/images/user1.svg";
+import user2 from "assets/images/user2.svg";
 
 export default function Testimonials () {
   const [currentItem, setCurrentItem] = useState(0);

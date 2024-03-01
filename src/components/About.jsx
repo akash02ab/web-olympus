@@ -1,4 +1,4 @@
-import Link from "./Link";
+import Link from "components/Link";
 import {
   AboutLeft,
   AboutOverlap,
@@ -9,7 +9,7 @@ import {
 } from "./style/about";
 import SectionName from "./style/sectionName";
 import SectionTitle from "./style/sectionTitle";
-import aboutBackground from "../assets/images/about-background.svg";
+import aboutBackground from "assets/images/about-background.svg";
 
 export default function About () {
   return (

@@ -1,6 +1,6 @@
-import Icon from "./Icon";
+import Icon from "components/Icon";
 import LinkStyle from "./style/link";
-import buttonDecoration from "../assets/images/button-decoration.svg";
+import buttonDecoration from "assets/images/button-decoration.svg";
 
 export default function Link ({ children }) {
   return (

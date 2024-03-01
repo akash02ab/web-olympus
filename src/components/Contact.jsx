@@ -1,8 +1,8 @@
-import Icon from "./Icon";
+import Icon from "components/Icon";
 import ContactSection from "./style/contact";
 import SectionName from "./style/sectionName";
 import SectionTitle from "./style/sectionTitle";
-import linkDecoration from "../assets/images/link-decoration.svg";
+import linkDecoration from "assets/images/link-decoration.svg";
 
 export default function Contact () {
   return (

@@ -1,4 +1,4 @@
-import Link from "./Link";
+import Link from "components/Link";
 import PortfolioSection from "./style/portfolio";
 import SectionName from "./style/sectionName";
 import SectionTitle from "./style/sectionTitle";
