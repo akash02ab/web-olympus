@@ -9,6 +9,10 @@ const NavStyle = styled.nav`
   align-items: center;
   position: absolute;
   z-index: 2;
+
+  @media screen and (min-width: 2000px) {
+    padding: 41px 25vw;
+  }
 `;
 
 const NavLinks = styled.ul`
